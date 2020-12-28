@@ -1,0 +1,4 @@
+php artisan make:model Contact --migration
+php artisan migrate
+php artisan make:controller ContactController --resource
+php artisan make:seeder ContactTableSeeder
